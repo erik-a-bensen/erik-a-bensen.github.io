@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://erik-a-bensen.github.io/sitemap.xml
