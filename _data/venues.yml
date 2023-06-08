@@ -1,6 +1,28 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ITSC":
+  url: https://ieee-itss.org/conf/itsc/
+  color: "#00629b"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ICTD":
+  url: https://www.asce-ictd.org 
+  color: "#1a355e"
+
+"EPRI":
+  url: https://www.epri.com/ai-and-electric-power-summit
+  color: "#1565c0"
+
+"PRM":
+  url: https://journals.aps.org/prmaterials/
+  color: "#8a2a2b"
+
+"PRA":
+  url: https://journals.aps.org/prapplied/
+  color: "#960051"
+
+"AEM":
+  url: https://pubs.acs.org/journal/aaemcq
+  color: "#005083"
+
+"ECM":
+  url: https://www.sciencedirect.com/journal/energy-conversion-and-management
+  color: "rgb(103, 128, 5)"
+
