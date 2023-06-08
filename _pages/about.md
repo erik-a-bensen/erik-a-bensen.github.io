@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <b>Ph.D. Student</b> at <a href='https://www.cmu.edu'>Carnegie Mellon University</a>
 
 profile:
   align: left
@@ -10,8 +10,8 @@ profile:
   image_circular: true # crops the image to make it circular
   address: >
     <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>5000 Forbes Avenue</p>
+    <p>Pittsburgh, PA 15213</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -19,10 +19,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Is this updating correctly?
+I am a first year Ph.D. Student in the department of [Statistics and Data Science](https://www.cmu.edu/dietrich/statistics-datascience/index.html) at Carnegie Mellon. I am broadly interested in the theoretical foundations of non-classical Statistics, applications of Statistics to the Physical Sciences as well as Explainability and Fairness in Machine Learning; however, I have yet to decide what direction to pursue for my Ph.D. research.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Before joining CMU, I was a Computational Scientist at the [National Renewable Energy Laboratory](https://www.nrel.gov) (NREL) where I worked on understanding and reducing the energy consumption of deep learning models, mitigating socioeconomic biases in energy consumption models and state estimation problems for Traffic Controls Systems.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I graduated with my M.S. in Applied Mathematics & Statistics and my B.S. in Engineering Physics from [Colorado School of Mines](https://www.mines.edu) where I was a [Harvey Scholar](https://www.mines.edu/pascal/harvey-scholars/). Before my masters, I worked in Materials Science as a part of the [Toberer Lab Group](https://people.mines.edu/etoberer/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Outside of research I am an avid traveler, I enjoy climbing and backpacking, I am a classical pianist, and I am a member of the International Shotokan Karate Federation (ISKF) where I hold a first degree black belt.
