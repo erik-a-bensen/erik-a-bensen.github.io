@@ -1,97 +1,137 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Albert Einstein
+#     - name: Date of Birth
+#       value: 14th March 1879
+#     - name: Languages
+#       value: English, German
+
+# - title: Education
+#   type: time_table
+#   contents:
+#     - title: Ph.D. Student in Statistics
+#       institution: Carnegie Mellon University, Pittsburgh, PA
+#       year: 2023 - present
+#       description:
+#         - Description 1.
+#         - Description 2.
+#         - title: Description 3.
+#           contents:
+#             - Sub-description 1.
+#             - Sub-description 2.
+#     - title: Federal teaching diploma
+#       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+#       year: 1900
+#       description:
+#         - Description 1.
+#         - Description 2.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. Student in Statistics
+      institution: Carnegie Mellon University, Pittsburgh, PA
+      year: 2023 - present
+    - title: M.S. in Applied Mathematics & Statistics
+      institution:  Colorado School of Mines, Golden, CO
+      year: 2022
+    - title: B.S. in Engineering Physics
+      institution: Colorado School of Mines, Golden, CO
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - <i>summa cum laude</i>
+        - Minor in Computational & Applied Mathematics
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Computational Scientist
+      institution: Comomputational Science Center,<br>National Renewable Energy Laboratory, Golden, CO
+      year: 2022 - 2023
       description:
         - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+    - title: Graduate Intern
+      institution: Comomputational Science Center,<br>National Renewable Energy Laboratory, Golden, CO
+      year: 2020 - 2022
       description:
         - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: SULI Intern
+      institution: Comomputational Science Center,<br>National Renewable Energy Laboratory, Golden, CO
+      year: 2020
       description:
+        - Description 1.
+    - title: Computational Scientist
+      institution: Toberer Lab Group,<br>Colorado School of Mines, Golden, CO
+      year: 2018 - 2021
+      description:
+        - Description 1.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
-- title: Open Source Projects
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Skills
+  type: map
+  contents:
+    - name: Programming
+      value: Python, \(C^{++}\), \(R\), Matlab, Mathematica, LabView,<br>\(\LaTeX\), Linux, Bash, Git
+    - name: Machine Learning
+      value: Tensorflow, Keras, PyTorch, XGBoost, SciKit Learn
+    - name: High Performance Computing
+      value: MPI, OpenMP, SLURM
+    - name: Software
+      value: Solidworks, ArcGIS, TOPAS, Vector Graphics, Microsoft Office Suite
+    - name: Leadership
+      value: Strong team building, team management and community outreach skills
+    - name: Communication
+      value: Excellent public speaking, teaching and technical writing skills
+
+- title: Leadership
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: President
+      institution: Harvey Scholars Program,<br>Colorado School of Mines, Golden, CO
+      year: 2021 - 2022
+    - title: Applications Technical Coordinator
+      institution: Harvey Scholars Program,<br>Colorado School of Mines, Golden, CO
+      year: 2020 - 2021
+    - title: Service Coordinator
+      institution: Harvey Scholars Program,<br>Colorado School of Mines, Golden, CO
+      year: 2018 - 2019
+    - title: Vice President of Campus Engagement
+      institution: Mines Philanthropy Council,<br>Colorado School of Mines, Golden, CO
+      year: 2018 - 2019
+
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2017 - 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Full Tuition Harvey Scholarship
+    - year: 2021
       items: 
-        - Max Planck Medal
+        - Physics Faculty Commended Graduating Senior Award
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
