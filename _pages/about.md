@@ -23,6 +23,7 @@ I am a first year Ph.D. Student in the department of [Statistics and Data Scienc
 
 Before joining CMU, I was a Computational Scientist at the [National Renewable Energy Laboratory](https://www.nrel.gov) (NREL) where I worked on understanding and reducing the energy consumption of deep learning models, mitigating socioeconomic biases in energy consumption models and state estimation problems for Traffic Controls Systems.
 
-I graduated with my M.S. in Applied Mathematics & Statistics and my B.S. in Engineering Physics from [Colorado School of Mines](https://www.mines.edu) where I was a [Harvey Scholar](https://www.mines.edu/pascal/harvey-scholars/). Before my masters, I worked in Materials Science as a part of the [Toberer Lab Group](https://people.mines.edu/etoberer/).
+I graduated with my M.S. in Applied Mathematics & Statistics and my B.S. in Engineering Physics from [Colorado School of Mines](https://www.mines.edu) where I was a [Harvey Scholar](https://www.mines.edu/pascal/harvey-scholars/). 
+<!-- Before my masters, I worked in Materials Science as a part of the [Toberer Lab Group](https://people.mines.edu/etoberer/). -->
 
 Outside of research I am an avid traveler, I enjoy climbing and backpacking, I am a classical pianist, and I am a member of the International Shotokan Karate Federation (ISKF) where I hold a first degree black belt.
