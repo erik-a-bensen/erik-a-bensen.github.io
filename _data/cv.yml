@@ -48,25 +48,57 @@
   type: time_table
   contents:
     - title: Computational Scientist
-      institution: Comomputational Science Center,<br>National Renewable Energy Laboratory, Golden, CO
+      institution: Computational Science Center,<br>National Renewable Energy Laboratory, Golden, CO
       year: 2022 - 2023
       description:
-        - Description 1.
+        - title: Green Computing
+          contents:
+            - Sub-description 1.
+        - title: Wireless Communication Modeling for Cooperative Driving Automation
+          contents:
+            - Developed cosimulation interface between the Aimsun Next micro traffic simulator and the ns-3 network simulator to model wireless communication in a connected vehicle environment.
+        - title: Bias in Transportation System Predictions
+          contents:
+            - Sub-description 1.
+        - title: ML for Traffic State Estimation
+          contents:
+            - Sub-description 1.
+        - title: Explainable, Interpretable and Verifiable AI Initiative
+          contents:
+            - Sub-description 1.
     - title: Graduate Intern
-      institution: Comomputational Science Center,<br>National Renewable Energy Laboratory, Golden, CO
+      institution: Computational Science Center,<br>National Renewable Energy Laboratory, Golden, CO
       year: 2020 - 2022
       description:
-        - Description 1.
+        - title: Sensor Fusion for Infrastructure Perception and Control
+          contents:
+            - Sub-description 1.
+        - title: Vehicular Ad-hoc Network (VANET) Communications
+          contents:
+            - Sub-description 1.
     - title: SULI Intern
-      institution: Comomputational Science Center,<br>National Renewable Energy Laboratory, Golden, CO
+      institution: Computational Science Center,<br>National Renewable Energy Laboratory, Golden, CO
       year: 2020
       description:
-        - Description 1.
-    - title: Computational Scientist
+        - title: LiDAR Object Detection for Infrastructure Perception and Control
+          contents:
+            - Sub-description 1.
+    - title: Undergraduate Researcher
       institution: Toberer Lab Group,<br>Colorado School of Mines, Golden, CO
       year: 2018 - 2021
       description:
-        - Description 1.
+        - title: Numerical Methods for Analyzing Semiconductor Materials
+          contents:
+            - Sub-description 1.
+        - title: Analysis of ZnVSb 
+          contents:
+            - Sub-description 1.
+        - title: Materials Discovery
+          contents:
+            - Sub-description 1.
+        - title: Energy Storage in Phase Transitions
+          contents:
+            - Sub-description 1.
 
 
 # - title: Open Source Projects
@@ -118,6 +150,14 @@
     - year: 2021
       items: 
         - Physics Faculty Commended Graduating Senior Award
+
+- title: Languages
+  type: map
+  contents:
+    - name: English
+      value: Native Speaker
+    - name: Spanish
+      value: "Fluent: Read, Write, Speak"
 
 # - title: Academic Interests
 #   type: nested_list
