@@ -8,14 +8,14 @@ name:
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
   pronouns: '' #he/him
-postnominals:
-  - PhD
-  - MIEEE
+# postnominals:
+#   - PhD
+#   - MIEEE
 status:
-  icon: "☕️"
-role: PhD Student in Statistics and Data Science
+  icon: '' #"☕️"
+role: PhD Student in Statistics
 bio: |
-  Erik Bensen is a PhD student in Statistics and Data Science and a member of the Statistical Methods for the Physical Sciences (STAMPS) Research Center at Carnegie Mellon University. His research interests primarily involve developing statistical methods for complex datasets that arise in the physical sciences, with recent work developing simulation-based inference methods to address systematic misspecifications in aerosol simulations.
+  Erik Bensen is a PhD student in Statistics and Data Science and a member of the Statistical Methods for the Physical Sciences (STAMPS) Research Center at Carnegie Mellon University.
 
 affiliations:
   - name: Carnegie Mellon University
@@ -25,7 +25,7 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:ebensen@stat.cmu.edu
     label: E-mail Me
   # - icon: brands/x
   #   url: https://x.com/example
@@ -46,7 +46,7 @@ interests:
 education:
   - degree: PhD Statistics
     institution: Carnegie Mellon University
-    # start: 2015-09-01
+    start: 2023-08-01
     # end: 2019-06-30
     # summary: |
     #   Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
@@ -56,63 +56,72 @@ education:
     #   icon: hero/arrow-down-tray
   - degree: MS Statistics
     institution: Carnegie Mellon University
-    # start: 2013-09-01
-    end: 2025
+    start: 2023-08-01
+    end: 2025-05-01
   - degree: MS Applied Mathematics & Statistics
     institution: Colorado School of Mines
-    # start: 2013-09-01
-    end: 2022
+    start: 2020-08-01
+    end: 2022-05-01
   - degree: BS Engineering Physics
     institution: Colorado School of Mines
-    # start: 2009-09-01
-    end: 2021
+    start: 2017-08-01
+    end: 2021-05-01
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+  - role: Applied Machine Learning Fellow
+    org: Los Alamos National Laboratory
+    start: 2025-05-01
+    end: 2025-08-01
+  - role: Computational Scientist
+    org: National Renewable Energy Laboratory
+    start: 2022-05-01
+    end: 2023-10-01
+    # summary: |
+    #   Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+    # button:
+    #   text: View portfolio
+    #   url: /
+    #   icon: hero/arrow-down-tray
+  - role: Graduate Intern
+    org: National Renewable Energy Laboratory
+    start: 2021-01-01
+    end: 2022-05-01
+    # summary: |
+    #   Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+  - role: SULI Intern
+    org: National Renewable Energy Laboratory
+    start: 2020-08-01
+    end: 2020-12-31
 
-skills:
-  - name: Technical Skills
-    items:
-      - label: Pytho
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - label: Pytho
+#         level: 5
+#       - label: Machine Learning
+#         level: 5
+#       - label: Cloud Computing
+#         level: 4
+#   - name: Research & Communication
+#     items:
+#       - label: Academic Writing
+#         level: 5
+#       - label: Conference Presentations
+#         level: 4
+#       - label: Grant Proposals
+#         level: 4
 
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+# languages:
+#   - name: English
+#     level: 5
+#     label: Native
+#   - name: Spanish
+#     level: 4
+#     label: Fluent
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+# awards:
+#   - title: Best Paper Award
+#     awarder: NeurIPS
+#     date: "2022-12-01"
+#     summary: Awarded for groundbreaking work on efficient training of large models.
+#     icon: hero/trophy

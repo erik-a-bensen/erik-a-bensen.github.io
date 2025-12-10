@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Erik A. Bensen"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -23,8 +23,8 @@ hugoblox:
     # Site meta description for search engines and social sharing
     description: "The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website."
     # Social accounts (used for meta tags like Twitter Cards)
-    social:
-      twitter: "BuildLore"              # Twitter/X handle for Twitter Cards (without @)
+    # social:
+    #   twitter: "BuildLore"              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -60,9 +60,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   typography:
     # Font: 'sans' (Inter), 'serif' (Roboto Slab), or 'native' (system fonts)
-    font: "sans"
+    font: 'sans'
     # Size: 'sm', 'md', 'lg', or 'xl' (affects base font size and scale)
-    size: "md"
+    size: 'md'
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
@@ -70,11 +70,11 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
+    radius: 'md'
     # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "comfortable"
+    spacing: 'comfortable'
     # Avatar shape in author profiles
-    avatar_shape: circle                # circle | square | rounded
+    avatar_shape: circle               # circle | square | rounded
 
   # ────────────────────────────────────────────────────────────────────────────
   # HEADER
@@ -83,16 +83,16 @@ hugoblox:
   header:
     enable: true
     # Header style variant
-    style: navbar                       # navbar | navbar-simple | minimal
+    style: minimal                       # navbar | navbar-simple | minimal
     # Stick to top on scroll
     sticky: true
     # Menu alignment
-    align: center                       # left | center | right
+    align: right                       # left | center | right
     # Feature toggles
     search: true
     theme_toggle: true
-    theme_picker: true
-    language_switcher: true
+    theme_picker: false
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false
@@ -105,8 +105,8 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   footer:
     # Footer style variant
-    style: minimal                      # minimal | columns | centered
-    language_switcher: true
+    style: minimal                     # minimal | columns | centered
+    language_switcher: false
     # Custom footer text (HTML supported)
     text: ""
 
@@ -116,10 +116,12 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    #notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {year} {name}. This work is licensed under CC BY-NC-SA 4.0"
     license:
+      enable: true
       type: cc                          # cc | all_rights | custom
-      allow_derivatives: false
+      allow_derivatives: true
       share_alike: true
       allow_commercial: false
 
@@ -157,7 +159,7 @@ hugoblox:
   content:
     # Math rendering
     math:
-      enable: false
+      enable: true
     # Table of contents
     toc:
       enable: true
