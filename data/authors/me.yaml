@@ -35,8 +35,8 @@ links:
     url: https://www.linkedin.com/in/erik-a-bensen/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=s088oCAAAAAJ&hl=en&authuser=2
-  # - icon: academicons/orcid
-  #   url: https://orcid.org/0000-0002-1825-0097
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-2294-1421
 
 interests:
   - Statistics for the Physical Sciences
@@ -58,7 +58,7 @@ education:
     institution: Carnegie Mellon University
     start: 2023-08-01
     end: 2025-05-01
-  - degree: MS Applied Mathematics & Statistics
+  - degree: MS Applied Math & Statistics
     institution: Colorado School of Mines
     start: 2020-08-01
     end: 2022-05-01
