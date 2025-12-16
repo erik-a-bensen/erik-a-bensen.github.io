@@ -7,6 +7,12 @@
 hugoblox:
   schema: "2.0"
 
+  # Add this anywhere in the file
+  highlight_authors: 
+    - 'Erik A. Bensen'
+    - 'Erik A Bensen'
+    - 'Erik Bensen'
+
   # ────────────────────────────────────────────────────────────────────────────
   # IDENTITY
   # Site-level branding (for people/profiles, use the author system in content/authors/)
@@ -21,7 +27,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website."
+    description: "Erik Bensen is a PhD student in Statistics at Carnegie Mellon University working on statistical methods for the physical sciences."
     # Social accounts (used for meta tags like Twitter Cards)
     # social:
     #   twitter: "BuildLore"              # Twitter/X handle for Twitter Cards (without @)
@@ -34,7 +40,7 @@ hugoblox:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: "default"
+    pack: "minimal"
     # Optional: Override theme pack colors
     colors:
       primary: ""                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
@@ -60,7 +66,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   typography:
     # Font: 'sans' (Inter), 'serif' (Roboto Slab), or 'native' (system fonts)
-    font: 'sans'
+    font: 'serif'
     # Size: 'sm', 'md', 'lg', or 'xl' (affects base font size and scale)
     size: 'md'
 
@@ -83,13 +89,13 @@ hugoblox:
   header:
     enable: true
     # Header style variant
-    style: minimal                       # navbar | navbar-simple | minimal
+    style: navbar                       # navbar | navbar-simple | minimal
     # Stick to top on scroll
     sticky: true
     # Menu alignment
-    align: right                       # left | center | right
+    align: left                       # left | center | right
     # Feature toggles
-    search: true
+    search: false
     theme_toggle: true
     theme_picker: false
     language_switcher: false
@@ -165,10 +171,10 @@ hugoblox:
       enable: true
     # Reading time estimates
     reading_time:
-      enable: true
+      enable: false
     # Academic citations
     citations:
-      style: apa                        # apa | mla | chicago | ieee
+      style: mla                        # apa | mla | chicago | ieee
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH

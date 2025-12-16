@@ -1,0 +1,56 @@
+/* Style publication title links */
+.pub-list-item.view-citation > a {
+  color: var(--color-primary-600) !important;
+}
+
+/* Dark mode */
+:where(.dark, .dark *) .pub-list-item.view-citation > a {
+  color: var(--color-primary-400) !important;
+}
+
+/* Hover states */
+.pub-list-item.view-citation > a:hover {
+  text-decoration: underline;
+}
+
+/* Google Scholar link on publications page */
+.pub-scholar-link {
+  color: var(--color-primary-600) !important;
+  text-decoration: none !important;
+}
+
+:where(.dark, .dark *) .pub-scholar-link {
+  color: var(--color-primary-400) !important;
+}
+
+.pub-scholar-link:hover {
+  text-decoration: underline !important;
+}
+
+/* Links in bio */
+.bio-link {
+  color: var(--color-primary-600) !important;
+  text-decoration: none !important;
+}
+
+:where(.dark, .dark *) .bio-link {
+  color: var(--color-primary-400) !important;
+}
+
+.bio-link:hover {
+  text-decoration: underline !important;
+}
+
+/* Links in project pages */
+.project-link {
+  color: var(--color-primary-600) !important;
+  text-decoration: none !important;
+}
+
+:where(.dark, .dark *) .project-link {
+  color: var(--color-primary-400) !important;
+}
+
+.project-link:hover {
+  text-decoration: underline !important;
+}

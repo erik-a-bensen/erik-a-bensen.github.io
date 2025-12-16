@@ -15,13 +15,13 @@ status:
   icon: '' #"☕️"
 role: PhD Student in Statistics
 bio: |
-  Erik Bensen is a PhD student in Statistics and Data Science and a member of the Statistical Methods for the Physical Sciences (STAMPS) Research Center at Carnegie Mellon University.
+  Erik Bensen is a PhD student in Statistics and Data Science at Carnegie Mellon University.
 
 affiliations:
   - name: Carnegie Mellon University
-    url: https://www.cmu.edu/dietrich/statistics-datascience/
-  - name: STAMPS Research Center
-    url: https://www.cmu.edu/dietrich/statistics-datascience/stamps/
+    url: https://www.cmu.edu/
+  # - name: STAMPS Research Center
+  #   url: https://www.cmu.edu/dietrich/statistics-datascience/stamps/
 
 links:
   - icon: at-symbol
@@ -35,8 +35,8 @@ links:
     url: https://www.linkedin.com/in/erik-a-bensen/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=s088oCAAAAAJ&hl=en&authuser=2
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-2294-1421
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/0000-0002-2294-1421
 
 interests:
   - Statistics for the Physical Sciences
@@ -92,32 +92,36 @@ experience:
     org: National Renewable Energy Laboratory
     start: 2020-08-01
     end: 2020-12-31
+  - role: Undergraduate Researcher
+    org: Toberer Lab, Colorado School of Mines
+    start: 2018-07-01
+    end: 2021-05-01
 
-# skills:
-#   - name: Technical Skills
-#     items:
-#       - label: Pytho
-#         level: 5
-#       - label: Machine Learning
-#         level: 5
-#       - label: Cloud Computing
-#         level: 4
-#   - name: Research & Communication
-#     items:
-#       - label: Academic Writing
-#         level: 5
-#       - label: Conference Presentations
-#         level: 4
-#       - label: Grant Proposals
-#         level: 4
+skills:
+  - name: Technical Skills
+    items:
+      - label: Python
+        level: 5
+      - label: Machine Learning
+        level: 5
+      - label: Cloud Computing
+        level: 4
+  # - name: Research & Communication
+  #   items:
+  #     - label: Academic Writing
+  #       level: 5
+  #     - label: Conference Presentations
+  #       level: 4
+  #     - label: Grant Proposals
+  #       level: 4
 
-# languages:
-#   - name: English
-#     level: 5
-#     label: Native
-#   - name: Spanish
-#     level: 4
-#     label: Fluent
+languages:
+  - name: English
+    level: 5
+    label: Native
+  - name: Spanish
+    level: 4
+    label: Fluent
 
 # awards:
 #   - title: Best Paper Award
