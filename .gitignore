@@ -6,6 +6,8 @@
 # Hugo Build Artifacts
 # ============================================================================
 
+_vendor/
+
 # Generated site output
 public/
 

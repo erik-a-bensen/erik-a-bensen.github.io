@@ -7,7 +7,6 @@
 hugoblox:
   schema: "2.0"
 
-  # Add this anywhere in the file
   highlight_authors: 
     - 'Erik A. Bensen'
     - 'Erik A Bensen'
@@ -170,8 +169,8 @@ hugoblox:
     toc:
       enable: true
     # Reading time estimates
-    reading_time:
-      enable: false
+    reading_time: false
+      # enable: false
     # Academic citations
     citations:
       style: mla                        # apa | mla | chicago | ieee
