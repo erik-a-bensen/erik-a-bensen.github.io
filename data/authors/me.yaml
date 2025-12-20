@@ -210,3 +210,49 @@ languages:
 #     date: "2022-12-01"
 #     summary: Awarded for groundbreaking work on efficient training of large models.
 #     icon: hero/trophy
+
+# teaching:
+#   - role: Instructor
+#     org: |
+        # 36-226: Probability & Statistical Inference II
+        # Carnegie Mellon University
+#     start: 2026-05-01
+#     # summary: Your description here
+
+ta:
+  - role: Teaching Assistant
+    org: |
+      46-937: Deep Learning
+      Master of Science in Computational Finance Program, Carnegie Mellon University
+    start: 2025-08-01
+    # summary: Your description here
+  - role: Teaching Assistant
+    org: |
+      46-926: Machine Learning I
+      Master of Science in Computational Finance Program, Carnegie Mellon University
+    start: 2025-10-01
+    # summary: Your description here
+  - role: Head Teaching Assistant
+    org: |
+      36-236: Probability & Statistical Inference II
+      Department of Statistics & Data Science, Carnegie Mellon University
+    start: 2025-01-01
+    # summary: Lead weekly recitations
+  - role: Teaching Assistant
+    org: |
+      36-402: Advanced Methods for Data Analysis
+      Department of Statistics & Data Science, Carnegie Mellon University
+    start: 2024-01-01
+    # summary: Your description here
+  - role: Teaching Assistant
+    org: |
+      36-350: Introduction to Statistical Computing
+      Department of Statistics & Data Science, Carnegie Mellon University
+    start: 2023-08-01
+    # summary: Your description here
+  - role: Teaching Assistant
+    org: |
+      PHGN 361: Intermediate Electromagnetism
+      Department of Physics, Colorado School of Mines
+    start: 2020-01-01
+    # summary: Your description here

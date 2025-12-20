@@ -1,0 +1,125 @@
+{{/* Hugo Blox: Teaching */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $text := $block.content.text | emojify | $page.RenderString }}
+
+{{ $author := $block.content.username | default "me" }}
+{{ $profile := index site.Data.authors $author }}
+{{ $is_education_first := $block.design.is_education_first | default false }}
+
+<div class="flex flex-col items-center mx-auto w-full max-w-prose justify-center">
+
+<!-- Need Gap >= 3 when flex-row due to negative margin on cols (-start-3) -->
+<div class="flex flex-col lg:gap-x-6 w-full px-6 sm:px-0 {{ if $is_education_first }}flex-col-reverse{{end}}">
+
+{{ if $profile.teaching }}
+<div class="w-full">
+  <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white text-center">{{ i18n "teaching" | default "Teaching" }}</h3>
+  <ol class="relative w-full border-s border-gray-200 dark:border-gray-700">
+    {{ range $idx, $key := $profile.teaching }}
+    <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            {{ if .icon }}
+              {{ partial "functions/get_icon" (dict "name" .icon "attributes" "class='w-5 h-5'") }}
+            {{else}}
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M240,192h-8V56a16,16,0,0,0-16-16H40A16,16,0,0,0,24,56V192H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM40,56H216V192H40ZM176,88a8,8,0,0,1-8,8H88a8,8,0,0,1,0-16h80A8,8,0,0,1,176,88Zm0,32a8,8,0,0,1-8,8H88a8,8,0,0,1,0-16h80A8,8,0,0,1,176,120Zm-16,32a8,8,0,0,1-8,8H104a8,8,0,0,1,0-16h48A8,8,0,0,1,160,152Z"></path></svg>
+            {{end}}
+        </span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{ .role | default .position }}
+      </h3>
+      {{ $org := .org | default .company_name }}
+      {{ $lines := split $org "\n" }}
+      {{ range $lines }}
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">{{ . }}</span>
+      {{ end }}
+      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+        {{ $start := or .start .date_start }}
+        {{ if $start }}
+          {{ $startDate := time $start }}
+          {{ $month := int $startDate.Month }}
+          {{ $year := $startDate.Year }}
+          {{ $semester := "Spring" }}
+          {{ if and (ge $month 5) (le $month 7) }}
+            {{ $semester = "Summer" }}
+          {{ else if and (ge $month 8) (le $month 12) }}
+            {{ $semester = "Fall" }}
+          {{ end }}
+          {{ $semester }} {{ $year }}
+        {{ end }}
+      </time>
+      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose max-w-none prose-slate dark:prose-invert">{{.summary | $page.RenderString}}</div>
+
+      {{ with .button }}
+      <a href="{{.url}}" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg transition-colors hover:bg-gray-100 hover:text-gray-900 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-gray-900 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:text-white dark:focus:ring-gray-700">
+        {{ with .icon }}
+          {{ partial "functions/get_icon" (dict "name" . "attributes" "class='w-4 h-4'") }}
+        {{ end }}
+        {{ .text | default (i18n "learn_more" | default "Learn more") }}
+      </a>
+      {{ end }}
+
+    </li>
+    {{ end }}
+  </ol>
+</div>
+{{ end }}
+
+{{ if $profile.ta }}
+<div class="w-full">
+  <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white text-center">{{ i18n "teaching_assistant" | default "Teaching Assistant" }}</h3>
+    <ol class="relative w-full border-s border-gray-200 dark:border-gray-700">
+      {{ range $idx, $key := $profile.ta }}
+      <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            {{ if .icon }}
+            {{ partial "functions/get_icon" (dict "name" .icon "attributes" "class='w-5 h-5 text-primary-800 dark:text-primary-300'") }}
+            {{else}}
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M208,24H72A32,32,0,0,0,40,56V224a8,8,0,0,0,8,8H192a8,8,0,0,0,0-16H56a16,16,0,0,1,16-16H208a8,8,0,0,0,8-8V32A8,8,0,0,0,208,24Zm-8,160H72a31.82,31.82,0,0,0-16,4.29V56A16,16,0,0,1,72,40H200Z"></path></svg>
+            {{end}}
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{ .role | default .position }}
+        </h3>
+        {{ $org := .org | default .company_name }}
+        {{ $lines := split $org "\n" }}
+        {{ range $lines }}
+        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">{{ . }}</span>
+        {{ end }}
+        <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+          {{ $start := or .start .date_start }}
+          {{ if $start }}
+            {{ $startDate := time $start }}
+            {{ $month := int $startDate.Month }}
+            {{ $year := $startDate.Year }}
+            {{ $semester := "Spring" }}
+            {{ if and (ge $month 5) (le $month 7) }}
+              {{ $semester = "Summer" }}
+            {{ else if and (ge $month 8) (le $month 12) }}
+              {{ $semester = "Fall" }}
+            {{ end }}
+            {{ $semester }} {{ $year }}
+          {{ end }}
+        </time>
+        <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose max-w-none prose-slate dark:prose-invert">{{.summary | $page.RenderString}}</div>
+
+        {{ with .button }}
+        <a href="{{.url}}" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg transition-colors hover:bg-gray-100 hover:text-gray-900 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-gray-900 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:text-white dark:focus:ring-gray-700">
+          {{ with .icon }}
+            {{ partial "functions/get_icon" (dict "name" . "attributes" "class='w-4 h-4'") }}
+          {{ end }}
+          {{ .text | default (i18n "learn_more" | default "Learn more") }}
+        </a>
+        {{ end }}
+
+      </li>
+      {{ end }}
+    </ol>
+</div>
+{{ end }}
+
+</div>
+
+</div>
