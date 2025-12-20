@@ -15,7 +15,7 @@ status:
   icon: '' #"☕️"
 role: PhD Student in Statistics
 bio: |
-  Erik Bensen is a PhD student in Statistics and Data Science at Carnegie Mellon University.
+  Erik Bensen is a PhD student in Statistics and Data Science at Carnegie Mellon University working on statistical methods for the physical sciences.
 
 affiliations:
   - name: Carnegie Mellon University
@@ -69,11 +69,15 @@ education:
 
 experience:
   - role: Applied Machine Learning Fellow
-    org: Los Alamos National Laboratory
+    org: |
+      Computational Physics and Methods Group
+      Los Alamos National Laboratory
     start: 2025-05-01
     end: 2025-08-01
   - role: Computational Scientist
-    org: National Renewable Energy Laboratory
+    org: |
+      Complex Systems Simulation & Optimization Group
+      National Renewable Energy Laboratory
     start: 2022-05-01
     end: 2023-10-01
     # summary: |
@@ -83,37 +87,114 @@ experience:
     #   url: /
     #   icon: hero/arrow-down-tray
   - role: Graduate Intern
-    org: National Renewable Energy Laboratory
+    org: |
+      Complex Systems Simulation & Optimization Group
+      National Renewable Energy Laboratory
     start: 2021-01-01
     end: 2022-05-01
     # summary: |
     #   Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
   - role: SULI Intern
-    org: National Renewable Energy Laboratory
+    org: |
+      Complex Systems Simulation & Optimization Group
+      National Renewable Energy Laboratory
     start: 2020-08-01
     end: 2020-12-31
   - role: Undergraduate Researcher
-    org: Toberer Lab, Colorado School of Mines
+    org: |
+      Toberer Lab Group
+      Colorado School of Mines
     start: 2018-07-01
     end: 2021-05-01
 
 skills:
-  - name: Technical Skills
+  - name: Statistical Methods
+    items:
+      - label: Simulation-Based Inference
+        level: 5
+      - label: Spatial Statistics
+        level: 4
+      - label: Causal Inference
+        level: 3
+      - label: Time Series Analysis
+        level: 3
+      - label: State-Space models
+        level: 3
+      - label: Generalized Linear/ Additive Models
+        level: 4
+
+  - name: Computational Statistics
+    items:
+      - label: MCMC Methods
+        level: 4
+      - label: Optimization 
+        level: 4
+      - label: Sequential Monte Carlo
+        level: 3
+
+  - name: Programming
     items:
       - label: Python
         level: 5
-      - label: Machine Learning
+      - label: Git 
         level: 5
-      - label: Cloud Computing
+      - label: C++
         level: 4
-  # - name: Research & Communication
-  #   items:
-  #     - label: Academic Writing
-  #       level: 5
-  #     - label: Conference Presentations
-  #       level: 4
+      - label: R
+        level: 4
+      - label: Linux
+        level: 4
+      - label: SQL
+        level: 4
+      - label: Mathematica
+        level: 3
+      - label: Matlab 
+        level: 2
+
+  - name: Machine Learning 
+    items:
+      - label: PyTorch
+        level: 5
+      - label: Torch Lightning
+        level: 4
+      - label: Scikit-Learn 
+        level: 4 
+      - label: XGBoost
+        level: 4 
+      - label: Tensorflow/ Keras
+        level: 3
+
+  - name: High Performance Computing 
+    items:
+      - label: slurm 
+        level: 5
+      - label: MPI
+        level: 5 
+      - label: Distributed Parallel Computing
+        level: 4
+      - label: Shared Memory Parallel Computing
+        level: 4
+
+  - name: Research & Communication
+    items:
+      - label: $\LaTeX$/ Markdown
+        level: 5
+      - label: Academic Writing
+        level: 5
+      - label: Conference Presentations
+        level: 4
   #     - label: Grant Proposals
   #       level: 4
+
+  # - name: Data Analysis & Visualization
+  #   items:
+  #     - label: Pandas/ NumPy
+  #       level: 5
+  #     - label: Matplotlib/ Seaborn
+  #       level: 4
+  #     - label: ggplot2/ tidyverse
+  #       level: 3
+  
 
 languages:
   - name: English
