@@ -211,13 +211,13 @@ languages:
 #     summary: Awarded for groundbreaking work on efficient training of large models.
 #     icon: hero/trophy
 
-# teaching:
-#   - role: Instructor
-#     org: |
-        # 36-226: Probability & Statistical Inference II
-        # Carnegie Mellon University
-#     start: 2026-05-01
-#     # summary: Your description here
+teaching:
+  - role: Instructor
+    org: |
+        36-226: Probability & Statistical Inference II
+        Department of Statistics & Data Science, Carnegie Mellon University
+    start: 2026-06-22
+     # summary: Your description here
 
 ta:
   - role: Teaching Assistant
