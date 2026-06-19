@@ -41,7 +41,8 @@ links:
 interests:
   - Statistics for the Physical Sciences
   - Spatio-temporal Statistics
-  - Simulation-based Inference
+  - Neural Simulation-based Inference
+  - Causal Inference
 
 education:
   - degree: PhD Statistics

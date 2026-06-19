@@ -68,7 +68,7 @@ Slides can be added in a few ways:
 
 Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page. -->
 
-<!-- <iframe src="Bensen_JSM_2025.pdf" width="100%" height="600px" style="border: 1px solid #ccc;">
+<iframe src="Bensen_SPA26.pdf#view=Fit&page=1" width="100%" height="600px">
   <p>Your browser does not support embedded PDFs. 
-     <a href="Bensen_JSM_2025.pdf">Download the slides</a>.</p>
-</iframe> -->
+     <a href="Bensen_SPA26.pdf">Download the slides</a>.</p>
+</iframe>
