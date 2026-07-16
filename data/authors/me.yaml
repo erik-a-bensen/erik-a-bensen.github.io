@@ -215,7 +215,7 @@ languages:
 teaching:
   - role: Instructor
     org: |
-        36-226: Probability & Statistical Inference II
+        36-226: Introduction to Statistical Inference
         Department of Statistics & Data Science, Carnegie Mellon University
     start: 2026-06-22
      # summary: Your description here
