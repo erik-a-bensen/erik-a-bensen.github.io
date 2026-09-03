@@ -220,12 +220,13 @@ teaching:
     start: 2026-06-22
      # summary: Your description here
 
+
 ta:
   - role: Teaching Assistant
     org: |
-      46-937: Deep Learning
-      Master of Science in Computational Finance Program, Carnegie Mellon University
-    start: 2025-08-01
+      36-650: Statistical Computing
+      Master of Applied Data Science Program, Carnegie Mellon University
+    start: 2026-08-01
     # summary: Your description here
   - role: Teaching Assistant
     org: |
