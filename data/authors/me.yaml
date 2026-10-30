@@ -230,6 +230,11 @@ ta:
     # summary: Your description here
   - role: Teaching Assistant
     org: |
+      46-937: Deep Learning
+      Master of Science in Computational Finance Program, Carnegie Mellon University
+    start: 2025-10-01
+  - role: Teaching Assistant
+    org: |
       46-926: Machine Learning I
       Master of Science in Computational Finance Program, Carnegie Mellon University
     start: 2025-10-01
