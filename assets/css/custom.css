@@ -54,3 +54,38 @@
 .project-link:hover {
   text-decoration: underline !important;
 }
+
+/* Site-wide banner above the navbar */
+.site-banner {
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+}
+
+.site-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+}
+
+@media (max-width: 640px) {
+  .site-banner {
+    height: 170px;
+  }
+}
+
+/* Match the top spacing of regular pages (my-10) on landing pages */
+.page-body > .hbb-section:first-child {
+  padding-top: 2.5rem;
+}
+
+/* The biography block adds its own top padding, so drop the section's */
+.page-body > .blox-resume-biography-3:first-child {
+  padding-top: 0;
+}
+
+/* Pull the home page content up a further 0.5rem */
+.page-body > .blox-resume-biography-3:first-child > .resume-biography {
+  margin-top: -0.5rem;
+}
