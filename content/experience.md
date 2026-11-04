@@ -18,10 +18,16 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: true
+      # Remove bottom padding to tighten the gap above Skills
+      spacing:
+        padding: ['6rem', '0', '0', '0']
   - block: resume-skills
     content:
       title: Skills
       username: me
+    design:
+      spacing:
+        padding: ['0', '0', '6rem', '0']
   # - block: resume-awards
   #   content:
   #     title: Awards

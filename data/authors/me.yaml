@@ -41,16 +41,18 @@ links:
 interests:
   - Statistics for the Physical Sciences
   - Spatio-temporal Statistics
-  - Neural Simulation-based Inference
   - Causal Inference
+  - Simulation-based Inference
+  - Neural Inference
 
 education:
   - degree: PhD Statistics
     institution: Carnegie Mellon University
     start: 2023-08-01
     # end: 2019-06-30
-    # summary: |
-    #   Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+    summary: |
+      Advisor: Dr. Mikael Kuusela\
+      Thesis: Learning from Atmospheric Observations: from Spatial Discrepancy to Spatio-temporal Causal Inference
     # button:
     #   text: Download dissertation
     #   url: /resume.pdf
